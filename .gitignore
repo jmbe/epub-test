@@ -1,0 +1,7 @@
+build
+*.epub
+.gradle
+target
+.idea
+.~*
+
