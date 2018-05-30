@@ -1,0 +1,16 @@
+* text=auto
+
+# Use Windows line endings for compatibility reasons
+*.xhtml eol=crlf
+*.opf eol=crlf
+*.ncx eol=crlf
+*.xml eol=crlf
+*.css eol=css
+
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
+*.pdf binary
