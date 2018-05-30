@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+  <title>Matte och MathML</title>
+</head>
+<body>
+<section>
+  <div epub:type="pagebreak" id="Page_007" title="7" />
+  <h1>Test av bildbeskrivningar</h1>
+
+  <section>
+    <h2 id="rub_02_07">Test av alt-text till en bild</h2>
+    <p>Lill-Skansen är sedan 1955 barnens djurparksdel. Dess målgrupp var mindre de mindre barnen och avdelningen drev
+      verksamheten med mottot "Nu kan dina ungar få träffa våra ungar". </p>
+    <p>
+      <img src="images/en-hast-skansen.jpg" id="img001" alt="Häst framför häststallet." />
+    </p>
+    <p class="desc">Det låg först mellan utsiktstornet Bredablick och Bergsmansgården. 1971 flyttades Lill-Skansen till
+      sin nuvarande plats.</p>
+  </section>
+
+  <section>
+    <h2 id="rub_03_07">Test av längre beskrivning av en bild</h2>
+    <p>Skansen har knappt 40 byggnader från de flesta svenska landskap.</p>
+
+    <!--
+    EPUB Best Practices page 249:
+    "Grouping content using figure tags makes it simpler for a reader to navigate and un‐
+    derstand your content, as it’s another impediment to the logical reading order removed.
+    They can opt to skip all secondary figures and escape from them when the correct
+    markup is used."
+    -->
+    <figure>
+      <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet." />
+      <figcaption>
+        Detta är en längre bildbeskrivning. Det ska vara möjligt att hoppa förbi denna text och komma till resten av innehållet.
+        Byggnaderna är gårdar och stugor som placerades så att hus och gårdar från södra Sverige ligger på
+        södra Skansen och byggnader från norra Sverige ligger på norra delen.
+      </figcaption>
+    </figure>
+
+    <p>Detta är text efter figuren.</p>
+
+  </section>
+  <section>
+    <h2>Längre bildbeskrivning via länk</h2>
+
+    <!--
+      http://kb.daisy.org/publishing/docs/html/images.html Example 2
+      Länk till beskrivning i aside, placerad i annan fil.
+    -->
+    <figure id="fig-02">
+      <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet." />
+      <figcaption>
+        Figur 2. Samisk familj. <a role="doc-noteref"
+                                   href="extern-bildbeskrivningar.xhtml#desc-02">Beskrivning</a>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Längre bildbeskrivning via fotnot</h2>
+
+    <!--
+      http://kb.daisy.org/publishing/docs/html/images.html Example 3
+      Samma som example 2, men med noteref, så att läsare kan visa text i popup
+    -->
+    <figure id="fig-03">
+      <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet." />
+      <figcaption>
+        Figur 3. Samisk familj. <a role="doc-noteref" epub:type="noteref"
+                                   href="extern-bildbeskrivningar.xhtml#desc-03">Beskrivning</a>
+      </figcaption>
+    </figure>
+
+  </section>
+
+  <section>
+    <h2>Bild med dold beskrivning</h2>
+
+
+    <!--
+      http://kb.daisy.org/publishing/docs/html/images.html Example 5 Hidden description
+      Använder aria-describedby
+      "Note that support for this attribute is poor, particularly when referencing hidden content. While valid, it may
+      prevent any users from reaching the description, so should be used with caution."
+    -->
+
+    <figure id="fig-05">
+      <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet."
+           aria-describedby="desc-05" />
+      <figcaption>
+        Figur 5. Samisk familj.
+        <aside id="desc-05" hidden="hidden">
+          <p>
+            Byggnaderna är gårdar och stugor som placerades så att hus och gårdar från södra Sverige ligger på
+            södra Skansen och byggnader från norra Sverige ligger på norra delen.
+          </p>
+        </aside>
+      </figcaption>
+    </figure>
+  </section>
+
+
+</section>
+</body>
+</html>

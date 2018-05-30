@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="sv" lang="sv">
+<head>
+  <title>Test av blandat språk</title>
+  <style>
+    p.ex {
+      padding-left: 30px;
+    }
+    .fon { 
+      color: rgb(255,0,0);
+      font-family: "Lucida Sans Unicode";
+    }
+  </style>
+</head>
+<body epub:type="bodymatter chapter">
+<section>
+
+  <h1>Test av blandat språk</h1>
+  <p>Denna text är på svenska. Efter detta stycke följer en engelsk text.</p>
+
+  <p class="ex" xml:lang="en" lang="en">
+    Grouping content using figure tags makes it simpler for a reader to navigate and understand the content,
+    as it’s another impediment to the logical reading order removed. Users can opt to skip all secondary figures and
+    escape from them when the correct markup is used.
+  </p>
+
+  <p>Efter detta stycke följer en fransk text.</p>
+
+  <p class="ex" xml:lang="fr" lang="fr">
+    Le regroupement du contenu à l'aide de balises figuratives simplifie la navigation et la compréhension du contenu par le lecteur,
+    car c'est un autre obstacle à l'ordre logique de lecture supprimé. Les utilisateurs peuvent choisir de sauter toutes les figures secondaires et
+    échapper à eux lorsque le bon balisage est utilisé.
+  </p>
+
+  <p>Efter detta stycke följer en svensk text där det finns några ord i följd på engelska och några ord i följd på tyska.</p>
+
+  <p class="ex">
+    Gruppering av innehåll <em><span xml:lang="en" lang="en">using figure tags</span></em> gör det enklare för en läsare att navigera och förstå innehållet,
+    eftersom det är ett annat hinder för att den logiska läsordern tas bort. Användare kan välja att hoppa över alla sekundära siffror och
+    fly från dem, <em><span xml:lang="de" lang="de">wenn das korrekte Markup verwendet wird</span></em>.
+  </p>
+
+  <section>
+    <h2>Test av fonetik</h2>
+    <p>Nedan följer det engelska ordet <em><span xml:lang="en" lang="en">thing</span></em> skrivet med fonetiska tecken.</p>
+    <p class="ex"><span class="fon">[&#x03B8;&#x026A;&#x014B;]</span></p>
+  </section>
+
+  <section>
+    <h2>Test av diakririska tecken</h2>
+    <p>Nedan följer en text på polska med en mängd diakritiska tecken.</p>
+    <p class="ex" xml:lang="pl" lang="pl">
+      Grupowanie treści za pomocą znaczników postaci ułatwia czytanie i nawigowanie po zawartości, ponieważ jest kolejną przeszkodą w logicznej kolejności
+      czytania. Użytkownicy mogą zrezygnować ze wszystkich liczb drugorzędnych i uciec od nich, gdy używany jest właściwy znacznik.
+    </p>
+  </section>
+
+</section>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="sv" lang="sv">
+<head>
+  <title>Test av sekundärt innehåll</title>
+  <link rel="stylesheet" type="text/css" href="css/testbok.css" />
+</head>
+<body epub:type="bodymatter chapter">
+<section>
+  <span role="doc-pagebreak" id="Page_003" aria-label="3" />
+  <h1>Test av sekundärt innehåll</h1>
+  <section>
+    <h2>Sekundärt innehåll ska ej läsas upp automatiskt</h2>
+    <p>Efter denna text följer en sidofält (aside).</p>
+    <aside epub:type="sidebar" class="secondary-content">
+      Text inom sidofält. Bör ej ha lästs upp.
+    </aside>
+    <p>Texten som kommer efter sidofältet.</p>
+  </section>
+
+  <section>
+    <h2>Länk till sekundärt innehåll</h2>
+    <p>Här följer en länk till <a href="#sidebar-01">sidofält 2</a>.</p>
+
+    <aside epub:type="sidebar" id="sidebar-01">
+      Detta är sidofält 2. Denna text ska endast läsas upp om du har följt länk.
+    </aside>
+
+    <p>Text efter sidofält.</p>
+
+  </section>
+</section>
+
+</body>
+</html>

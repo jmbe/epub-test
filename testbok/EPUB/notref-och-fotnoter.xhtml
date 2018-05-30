@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="sv" lang="sv">
+	<head>
+		<title>Test av fotnoter</title>
+	</head>
+	<body epub:type="bodymatter chapter">
+		<section>
+			<div epub:type="pagebreak" id="Page_004" title="4"/>
+			<h1>Test av fotnoter</h1>
+			<p>I slutet av denna mening finns en fotnotsreferens.
+				<a class="noteref_footnote" epub:type="noteref" href="#n1">1</a> Detta är text efter länk till
+  fotnoten.</p>
+
+			<aside epub:type="footnote" role="doc-footnote" id="n1">
+  Detta är innehållet i fotnoten och bör endast visas om man har följt länk.
+			</aside>
+
+			<p>Löpande text efter fotnoten.</p>
+
+			<section>
+				<h2 id="sigil_toc_id_2">Fotnot i separat fil</h2>
+
+				<p>I slutet av denna mening finns länk till fotnot i separat fil.
+
+					<a class="noteref_footnote" epub:type="noteref" href="extern-fotnoter.xhtml#n2">2</a>
+  Detta är text efter länken.
+
+				</p>
+			</section>
+			<section>
+				<h2 id="sigil_toc_id_3">Fotnot enligt edupub</h2>
+
+				<p>I slutet av denna mening finns en fotnotsreferens.
+					<a class="noteref noteref_footnote" epub:type="noteref" id="r__P700048580600071D" href="#P700048580600071D">3</a>
+          Detta är text efter fotnoten.
+        </p>
+				<aside epub:type="footnote" id="P700048580600071D" role="doc-footnote">
+					<p>
+						<a role="doc-backlink" href="#r__P700048580600071D">3</a> Text i fotnot. Länk tillbaka visas enligt edupub före texten i fotnoten.</p>
+				</aside>
+			</section>
+		</section>
+	</body>
+</html>

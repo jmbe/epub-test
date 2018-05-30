@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/"
+     version="2005-1"
+     xml:lang="sv">
+  <head>
+    <meta name="dtb:uid" content="NOID" />
+  </head>
+  <docTitle>
+    <text>Innehållsförteckning</text>
+  </docTitle>
+  <navMap id="d1e1">
+    <navPoint id="d1e18">
+      <navLabel>
+        <text>Test av EPUB 3.0 som tillgänglig e-bok</text>
+      </navLabel>
+      <content src="front.xhtml" />
+    </navPoint>
+    <navPoint id="d1e24">
+      <navLabel>
+        <text>Innehållsförteckning</text>
+      </navLabel>
+      <content src="nav.xhtml" />
+    </navPoint>
+    <navPoint id="d1e30">
+      <navLabel>
+        <text>Test av rubrik- och styckesindelningar</text>
+      </navLabel>
+      <content src="rubriker-och-stycken.xhtml" />
+      <navPoint id="d1e37">
+        <navLabel>
+          <text>Rubrik två</text>
+        </navLabel>
+        <content src="rubriker-och-stycken.xhtml#rub_02_01" />
+        <navPoint id="d1e44">
+          <navLabel>
+            <text>Rubrik tre</text>
+          </navLabel>
+          <content src="rubriker-och-stycken.xhtml#rub_03_01" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="d1e54">
+      <navLabel>
+        <text>Test av tabeller</text>
+      </navLabel>
+      <content src="tabeller.xhtml" />
+      <navPoint id="d1e61">
+        <navLabel>
+          <text>Hoppa ur en tabell</text>
+        </navLabel>
+        <content src="tabeller.xhtml#rub_02_01" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="d1e69">
+      <navLabel>
+        <text>Test av sekundärt innehåll</text>
+      </navLabel>
+      <content src="sekundart-innehall.xhtml" />
+    </navPoint>
+    <navPoint id="d1e76">
+      <navLabel>
+        <text>Test av notreferenser och fotnoter</text>
+      </navLabel>
+      <content src="notref-och-fotnoter.xhtml" />
+    </navPoint>
+    <navPoint id="d1e82">
+      <navLabel>
+        <text>Test av listor</text>
+      </navLabel>
+      <content src="listor.xhtml" />
+    </navPoint>
+    <navPoint id="d1e88">
+      <navLabel>
+        <text>Fotnoter</text>
+      </navLabel>
+      <content src="extern-fotnoter.xhtml" />
+    </navPoint>
+    <navPoint id="d1e94">
+      <navLabel>
+        <text>Matteformler</text>
+      </navLabel>
+      <content src="matte-formler.xhtml" />
+    </navPoint>
+    <navPoint id="d1e100">
+      <navLabel>
+        <text>Test av bildbeskrivningar</text>
+      </navLabel>
+      <content src="bildbeskrivningar.xhtml" />
+      <navPoint id="d1e107">
+        <navLabel>
+          <text>Test av alt-text till en bild</text>
+        </navLabel>
+        <content src="bildbeskrivningar.xhtml#rub_02_07" />
+      </navPoint>
+      <navPoint id="d1e111">
+        <navLabel>
+          <text>Test av längre beskrivning av en bild</text>
+        </navLabel>
+        <content src="bildbeskrivningar.xhtml#rub_03_07" />
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

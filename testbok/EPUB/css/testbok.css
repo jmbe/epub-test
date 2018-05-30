@@ -1,0 +1,10 @@
+aside {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+nav[epub\:type~='landmarks'],
+nav[epub\:type~='page-list'] {
+  display: none;
+  visibility: hidden;
+}
