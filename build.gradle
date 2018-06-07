@@ -18,7 +18,7 @@ subprojects {
 
     epub {
         validate true
-        failOnWarnings true
-        failOnErrors true
+        failOnWarnings false
+        failOnErrors false
     }
 }
