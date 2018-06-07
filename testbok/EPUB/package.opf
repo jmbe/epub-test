@@ -14,7 +14,7 @@
     <item id="content_004" href="sekundart-innehall.xhtml" media-type="application/xhtml+xml" />
     <item id="content_005" href="notref-och-fotnoter.xhtml" media-type="application/xhtml+xml" />
     <item id="content_006" href="listor.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_007" href="matte-formler.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_007" href="matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
     <item id="content_008" href="bildbeskrivningar.xhtml" media-type="application/xhtml+xml" />
     <item id="content_009" href="lankar.xhtml" media-type="application/xhtml+xml" />
     <item id="content_010" href="mixed.xhtml" media-type="application/xhtml+xml" />
