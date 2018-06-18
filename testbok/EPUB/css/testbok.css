@@ -10,3 +10,7 @@ nav[epub\:type~='page-list'] {
   visibility: hidden;
 }
 */
+
+aside[epub\:type~="footnote"] {
+  font-style: italic;
+}
