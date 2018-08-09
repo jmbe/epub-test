@@ -44,12 +44,13 @@
         <text>Test av tabeller</text>
       </navLabel>
       <content src="tabeller.xhtml" />
-      <navPoint id="d1e61">
+	 <!-- borttagen rubrik -->
+    <!--  <navPoint id="d1e61">
         <navLabel>
           <text>Hoppa ur en tabell</text>
         </navLabel>
         <content src="tabeller.xhtml#rub_02_01" />
-      </navPoint>
+      </navPoint> -->
     </navPoint>
     <navPoint id="d1e69">
       <navLabel>
