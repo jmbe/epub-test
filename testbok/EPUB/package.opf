@@ -8,10 +8,10 @@
   </metadata>
   <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
-    <item id="content_001" href="front.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_002" href="rubriker-och-stycken.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_003" href="tabeller.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_004" href="sekundart-innehall.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_001" href="001_front.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_002" href="002_skansen.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_003" href="003_sveriges_tatorter.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_004" href="004_sveriges_ekonomi.xhtml" media-type="application/xhtml+xml" />
     <item id="content_005" href="notref-och-fotnoter.xhtml" media-type="application/xhtml+xml" />
     <item id="content_006" href="listor.xhtml" media-type="application/xhtml+xml" />
     <item id="content_007" href="matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
