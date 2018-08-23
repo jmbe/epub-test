@@ -12,8 +12,8 @@
     <item id="content_002" href="002_skansen.xhtml" media-type="application/xhtml+xml" />
     <item id="content_003" href="003_sveriges_tatorter.xhtml" media-type="application/xhtml+xml" />
     <item id="content_004" href="004_sveriges_ekonomi.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_005" href="notref-och-fotnoter.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_006" href="listor.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_005" href="005_historia.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_006" href="006_geografi_och_natur.xhtml" media-type="application/xhtml+xml" />
     <item id="content_007" href="matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
     <item id="content_008" href="bildbeskrivningar.xhtml" media-type="application/xhtml+xml" />
     <item id="content_009" href="lankar.xhtml" media-type="application/xhtml+xml" />

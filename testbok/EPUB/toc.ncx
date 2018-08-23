@@ -62,13 +62,13 @@
       <navLabel>
         <text>Test av notreferenser och fotnoter</text>
       </navLabel>
-      <content src="notref-och-fotnoter.xhtml" />
+      <content src="005_historia.xhtml" />
     </navPoint>
     <navPoint id="d1e82">
       <navLabel>
         <text>Test av listor</text>
       </navLabel>
-      <content src="listor.xhtml" />
+      <content src="006_geografi_och_natur.xhtml" />
     </navPoint>
     <navPoint id="d1e88">
       <navLabel>
