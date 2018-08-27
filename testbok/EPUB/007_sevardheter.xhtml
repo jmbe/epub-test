@@ -2,15 +2,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
 <head>
-  <title>Bildbeskrivningar</title>
+  <title>Sevärdheter</title>
 </head>
 <body>
 <section>
   <div epub:type="pagebreak" id="Page_007" title="7" />
-  <h1>Bildbeskrivningar</h1>
-
+  <h1>Sevärdheter</h1>
+	<p>Det finns en rad sevärdheter i Sverige för den som vill uppleva Sveriges främsta turistmål.</p>
   <section>
-    <h2 id="rub_02_07">Alt-text till en bild</h2>
+    <h2 id="rub_02_07">Skansens djurpark för barn</h2>
     <p>Lill-Skansen är sedan 1955 barnens djurparksdel. Dess målgrupp var mindre de mindre barnen och avdelningen drev
       verksamheten med mottot "Nu kan dina ungar få träffa våra ungar". </p>
     <p>
@@ -21,7 +21,7 @@
   </section>
 
   <section>
-    <h2 id="rub_03_07">Längre beskrivning av en bild</h2>
+    <h2 id="rub_02_08">Landsbygdens hus</h2>
     <p>Skansen har knappt 40 byggnader från de flesta svenska landskap.</p>
 
     <!--
@@ -34,42 +34,39 @@
     <figure>
       <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet." />
       <figcaption>
-        Figur 1. Detta är en längre bildbeskrivning. Det ska vara möjligt att hoppa förbi denna text och komma till resten av innehållet.
-        Byggnaderna är gårdar och stugor som placerades så att hus och gårdar från södra Sverige ligger på
-        södra Skansen och byggnader från norra Sverige ligger på norra delen.
+        Figur 1. Samisk familj vid samevistet, ca 1890-1910.
       </figcaption>
     </figure>
-
-    <p>Detta är text efter figuren.</p>
+    <p>Byggnaderna är gårdar och stugor som placerades så att hus och gårdar från södra Sverige ligger på södra Skansen och byggnader från norra Sverige ligger på norra delen. Runt hus och gårdar speglar växtligheten landskapet huset kommer ifrån.</p>
 
   </section>
   <section>
-    <h2>Längre bildbeskrivning via länk</h2>
-
+    <h2 id="rub_02_09">Vasamuseet</h2>
+	<p>Vasamuseet är ett svenskt statligt museum vid Galärvarvet på Södra Djurgården i Stockholm. Museet härbärgerar sedan den 15 juni 1990 regalskeppet Vasa, är en del av Statens maritima museer, och är beläget inom Kungliga Nationalstadsparken.</p>
     <!--
       http://kb.daisy.org/publishing/docs/html/images.html Example 2
       Länk till beskrivning i aside, placerad i annan fil.
     -->
     <figure id="fig-02">
-      <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet." />
+      <img src="images/vasamuseets-fasader.jpg" alt="En bild av bygnaden vasamuseets fasader." />
       <figcaption>
-        Figur 2. Samisk familj. <a role="doc-noteref"
+        Vasamuseets fasader mot norr, 2008. <a role="doc-noteref"
                                    href="extern-bildbeskrivningar.xhtml#desc-02">Beskrivning</a>
       </figcaption>
     </figure>
   </section>
 
   <section>
-    <h2>Längre bildbeskrivning via fotnot</h2>
-
+    <h2 id="rub_02_10">Turning Torso</h2>
+	<p>Turning Torso är Sveriges och Nordens högsta skyskrapa belägen vid Lilla Varvsgatan i Västra Hamnen, Malmö och invigt 27 augusti 2005.</p>
     <!--
       http://kb.daisy.org/publishing/docs/html/images.html Example 3
       Samma som example 2, men med noteref, så att läsare kan visa text i popup
     -->
     <figure id="fig-03">
-      <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet." />
+      <img src="images/turning-torso.jpg" alt="En bild som visar skyskraparen Turning Torso." />
       <figcaption>
-        Figur 3. Samisk familj. <a role="doc-noteref" epub:type="noteref"
+        Figur 3. Turning Torso. <a role="doc-noteref" epub:type="noteref"
                                    href="extern-bildbeskrivningar.xhtml#desc-03">Beskrivning</a>
       </figcaption>
     </figure>
@@ -77,9 +74,9 @@
   </section>
 
   <section>
-    <h2>Bild med dold beskrivning</h2>
+    <h2>Kebnekaise</h2>
 
-
+	<p>Kebnekaise, är Sveriges högsta berg och utgörs av ett bergsmassiv i Kiruna kommun, Norrbottens län (Lappland).</p>
     <!--
       http://kb.daisy.org/publishing/docs/html/images.html Example 5 Hidden description
       Använder aria-describedby
@@ -88,14 +85,13 @@
     -->
 
     <figure id="fig-05">
-      <img src="images/samisk-familj.jpg" alt="Samisk familj vid samevistet."
+      <img src="images/kebnekaise.jpg" alt="Bilden visar en vyn över Kebnekaise från Tarfaladalen"
            aria-describedby="desc-05" />
       <figcaption>
-        Figur 4. Samisk familj.
+        Figur 4. Vy över Kebnekaise från Tarfaladalen.
         <aside id="desc-05" hidden="hidden">
           <p>
-            Byggnaderna är gårdar och stugor som placerades så att hus och gårdar från södra Sverige ligger på
-            södra Skansen och byggnader från norra Sverige ligger på norra delen.
+            På bilden visas en vy öster om den bergsrygg som Kebnekaises nord- och sydtopp ingår i.
           </p>
         </aside>
       </figcaption>

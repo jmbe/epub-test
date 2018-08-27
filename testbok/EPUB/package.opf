@@ -14,8 +14,8 @@
     <item id="content_004" href="004_sveriges_ekonomi.xhtml" media-type="application/xhtml+xml" />
     <item id="content_005" href="005_historia.xhtml" media-type="application/xhtml+xml" />
     <item id="content_006" href="006_geografi_och_natur.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_007" href="matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
-    <item id="content_008" href="bildbeskrivningar.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_007" href="007_sevardheter.xhtml" media-type="application/xhtml+xml" />
+    <item id="content_008" href="matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
     <item id="content_009" href="lankar.xhtml" media-type="application/xhtml+xml" />
     <item id="content_010" href="mixed.xhtml" media-type="application/xhtml+xml" />
     <item id="fotnoter_02" href="extern-fotnoter.xhtml" media-type="application/xhtml+xml" />
@@ -24,6 +24,9 @@
     <!-- bilder -->
     <item href="images/en-hast-skansen.jpg" media-type="image/jpeg" id="hasten01" />
     <item href="images/samisk-familj.jpg" media-type="image/jpeg" id="samiskfam01" />
+	<item href="images/vasamuseets-fasader.jpg" media-type="image/jpeg" id="vasamuseet01" />
+	<item href="images/turning-torso.jpg" media-type="image/jpeg" id="turningtorso01" />
+	<item href="images/kebnekaise.jpg" media-type="image/jpeg" id="kebnekaise01" />
     <item href="css/testbok.css" media-type="text/css" id="testbok.css" />
   </manifest>
   <spine toc="ncx">
