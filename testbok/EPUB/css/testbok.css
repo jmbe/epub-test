@@ -14,3 +14,11 @@ nav[epub\:type~='page-list'] {
 aside[epub\:type~="footnote"] {
   font-style: italic;
 }
+
+p.ex {
+  padding-left: 30px;
+}
+.fon {
+  color: #E00;
+  font-family: "Lucida Sans Unicode";
+}
