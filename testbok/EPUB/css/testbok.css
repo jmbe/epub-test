@@ -18,7 +18,8 @@ aside[epub\:type~="footnote"] {
 p.ex {
   padding-left: 30px;
 }
+
 .fon {
   color: #E00;
-  font-family: "Lucida Sans Unicode";
+  font-family: "Lucida Sans Unicode", sans-serif;
 }
