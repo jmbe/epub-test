@@ -3,102 +3,256 @@
      version="2005-1"
      xml:lang="sv">
   <head>
-    <meta name="dtb:uid" content="NOID" />
+    <meta name="dtb:uid" content="non-public-test-book" />
+    <meta name="dtb:depth" content="3" />
+    <meta name="dtb:totalPageCount" content="8" />
+    <meta name="dtb:maxPageNumber" content="8" />
   </head>
   <docTitle>
-    <text>Innehållsförteckning</text>
+    <text>Testbok</text>
   </docTitle>
-  <navMap id="d1e1">
-    <navPoint id="d1e18">
+  <navMap>
+    <navPoint id="navPoint1">
       <navLabel>
         <text>Test av EPUB 3.0 som tillgänglig e-bok</text>
       </navLabel>
       <content src="001_front.xhtml" />
+      <navPoint id="navPoint2">
+        <navLabel>
+          <text>Om e-boken</text>
+        </navLabel>
+        <content src="001_front.xhtml#rub-front-2" />
+      </navPoint>
+      <navPoint id="navPoint3">
+        <navLabel>
+          <text>Hur används e-boken</text>
+        </navLabel>
+        <content src="001_front.xhtml#rub-front-3" />
+      </navPoint>
+      <navPoint id="navPoint4">
+        <navLabel>
+          <text>Instruktioner</text>
+        </navLabel>
+        <content src="001_front.xhtml#rub-front-4" />
+      </navPoint>
     </navPoint>
-    <navPoint id="d1e24">
-      <navLabel>
-        <text>Innehållsförteckning</text>
-      </navLabel>
-      <content src="nav.xhtml" />
-    </navPoint>
-    <navPoint id="d1e30">
+    <navPoint id="navPoint5">
       <navLabel>
         <text>Skansen</text>
       </navLabel>
       <content src="002_skansen.xhtml" />
-      <navPoint id="d1e37">
+      <navPoint id="navPoint6">
         <navLabel>
-          <text>Rubrik två</text>
+          <text>Historia</text>
         </navLabel>
         <content src="002_skansen.xhtml#rub_02_01" />
-        <navPoint id="d1e44">
+        <navPoint id="navPoint7">
           <navLabel>
-            <text>Rubrik tre</text>
+            <text>Skansens naturhistoriska avdelning</text>
           </navLabel>
           <content src="002_skansen.xhtml#rub_03_01" />
         </navPoint>
       </navPoint>
+      <navPoint id="navPoint8">
+        <navLabel>
+          <text>Skansens Zoologiska avdelning</text>
+        </navLabel>
+        <content src="002_skansen.xhtml#rub_02_02" />
+      </navPoint>
     </navPoint>
-    <navPoint id="d1e54">
+    <navPoint id="navPoint9">
       <navLabel>
         <text>Sveriges tätorter</text>
       </navLabel>
-      <content src="004_sveriges_ekonomi.xhtml" />
-	 <!-- borttagen rubrik -->
-    <!--  <navPoint id="d1e61">
-        <navLabel>
-          <text>Hoppa ur en tabell</text>
-        </navLabel>
-        <content src="tabeller.xhtml#rub_02_01" />
-      </navPoint> -->
+      <content src="003_sveriges_tatorter.xhtml" />
     </navPoint>
-    <navPoint id="d1e69">
+    <navPoint id="navPoint10">
       <navLabel>
-        <text>Test av sekundärt innehåll</text>
+        <text>Sveriges ekonomi</text>
       </navLabel>
       <content src="004_sveriges_ekonomi.xhtml" />
+      <navPoint id="navPoint11">
+        <navLabel>
+          <text>Arbetsmarknad</text>
+        </navLabel>
+        <content src="004_sveriges_ekonomi.xhtml#rub-sverige_ekonomi-2" />
+      </navPoint>
+      <navPoint id="navPoint12">
+        <navLabel>
+          <text>Näringsliv</text>
+        </navLabel>
+        <content src="004_sveriges_ekonomi.xhtml#rub-sverige_ekonomi-3" />
+      </navPoint>
     </navPoint>
-    <navPoint id="d1e76">
+    <navPoint id="navPoint13">
       <navLabel>
-        <text>Test av notreferenser och fotnoter</text>
+        <text>Historia</text>
       </navLabel>
       <content src="005_historia.xhtml" />
+      <navPoint id="navPoint14">
+        <navLabel>
+          <text>Vasatiden</text>
+        </navLabel>
+        <content src="005_historia.xhtml#sigil_toc_id_2" />
+      </navPoint>
+      <navPoint id="navPoint15">
+        <navLabel>
+          <text>Sverige som stormakt</text>
+        </navLabel>
+        <content src="005_historia.xhtml#sigil_toc_id_3" />
+      </navPoint>
     </navPoint>
-    <navPoint id="d1e82">
+    <navPoint id="navPoint16">
       <navLabel>
-        <text>Test av listor</text>
+        <text>Geografi och natur</text>
       </navLabel>
       <content src="006_geografi_och_natur.xhtml" />
+      <navPoint id="navPoint17">
+        <navLabel>
+          <text>Djur och växter</text>
+        </navLabel>
+        <content src="006_geografi_och_natur.xhtml#geografi-001" />
+      </navPoint>
+      <navPoint id="navPoint18">
+        <navLabel>
+          <text>Fåglar i sverige</text>
+        </navLabel>
+        <content src="006_geografi_och_natur.xhtml#geografi-002" />
+      </navPoint>
+      <navPoint id="navPoint19">
+        <navLabel>
+          <text>Definitionslista</text>
+        </navLabel>
+        <content src="006_geografi_och_natur.xhtml#geografi-003" />
+      </navPoint>
     </navPoint>
-    <navPoint id="d1e88">
+    <navPoint id="navPoint20">
       <navLabel>
-        <text>Fotnoter</text>
+        <text>Sevärdheter</text>
       </navLabel>
-      <content src="extern-fotnoter.xhtml" />
+      <content src="007_sevardheter.xhtml" />
+      <navPoint id="navPoint21">
+        <navLabel>
+          <text>Skansens djurpark för barn</text>
+        </navLabel>
+        <content src="007_sevardheter.xhtml#rub_02_07" />
+      </navPoint>
+      <navPoint id="navPoint22">
+        <navLabel>
+          <text>Landsbygdens hus</text>
+        </navLabel>
+        <content src="007_sevardheter.xhtml#rub_02_08" />
+      </navPoint>
+      <navPoint id="navPoint23">
+        <navLabel>
+          <text>Vasamuseet</text>
+        </navLabel>
+        <content src="007_sevardheter.xhtml#rub_02_09" />
+      </navPoint>
+      <navPoint id="navPoint24">
+        <navLabel>
+          <text>Turning Torso</text>
+        </navLabel>
+        <content src="007_sevardheter.xhtml#rub_02_10" />
+      </navPoint>
+      <navPoint id="navPoint25">
+        <navLabel>
+          <text>Kebnekaise</text>
+        </navLabel>
+        <content src="007_sevardheter.xhtml#rub_02_11" />
+      </navPoint>
     </navPoint>
-    <navPoint id="d1e94">
+    <navPoint id="navPoint26">
       <navLabel>
         <text>Matteformler</text>
       </navLabel>
       <content src="matte-formler.xhtml" />
     </navPoint>
-    <navPoint id="d1e100">
+    <navPoint id="navPoint27">
       <navLabel>
-        <text>Test av bildbeskrivningar</text>
+        <text>Länkar</text>
       </navLabel>
-      <content src="007_sevardheter.xhtml" />
-      <navPoint id="d1e107">
+      <content src="lankar.xhtml" />
+      <navPoint id="navPoint28">
         <navLabel>
-          <text>Test av alt-text till en bild</text>
+          <text>Länk till annan sida</text>
         </navLabel>
-        <content src="007_sevardheter.xhtml#rub_02_07" />
+        <content src="lankar.xhtml#rub-lankar-2" />
       </navPoint>
-      <navPoint id="d1e111">
+      <navPoint id="navPoint29">
         <navLabel>
-          <text>Test av längre beskrivning av en bild</text>
+          <text>Länk inom samma sida</text>
         </navLabel>
-        <content src="007_sevardheter.xhtml#rub_02_08" />
+        <content src="lankar.xhtml#rub-lankar-3" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint30">
+      <navLabel>
+        <text>Blandade språk</text>
+      </navLabel>
+      <content src="mixed.xhtml" />
+      <navPoint id="navPoint31">
+        <navLabel>
+          <text>Fonetik</text>
+        </navLabel>
+        <content src="mixed.xhtml#rub-mixed-2" />
+      </navPoint>
+      <navPoint id="navPoint32">
+        <navLabel>
+          <text>Diakritiska tecken</text>
+        </navLabel>
+        <content src="mixed.xhtml#rub-mixed-3" />
       </navPoint>
     </navPoint>
   </navMap>
+  <pageList>
+    <pageTarget id="navPoint33" type="normal" value="1">
+      <navLabel>
+        <text>1</text>
+      </navLabel>
+      <content src="002_skansen.xhtml#Page_001" />
+    </pageTarget>
+    <pageTarget id="navPoint34" type="normal" value="2">
+      <navLabel>
+        <text>2</text>
+      </navLabel>
+      <content src="002_skansen.xhtml#Page_001-2" />
+    </pageTarget>
+    <pageTarget id="navPoint35" type="normal" value="3">
+      <navLabel>
+        <text>3</text>
+      </navLabel>
+      <content src="003_sveriges_tatorter.xhtml#Page_002" />
+    </pageTarget>
+    <pageTarget id="navPoint36" type="normal" value="4">
+      <navLabel>
+        <text>4</text>
+      </navLabel>
+      <content src="004_sveriges_ekonomi.xhtml#Page_003" />
+    </pageTarget>
+    <pageTarget id="navPoint37" type="normal" value="5">
+      <navLabel>
+        <text>5</text>
+      </navLabel>
+      <content src="005_historia.xhtml#Page_004" />
+    </pageTarget>
+    <pageTarget id="navPoint38" type="normal" value="6">
+      <navLabel>
+        <text>6</text>
+      </navLabel>
+      <content src="006_geografi_och_natur.xhtml#Page_005" />
+    </pageTarget>
+    <pageTarget id="navPoint39" type="normal" value="7">
+      <navLabel>
+        <text>7</text>
+      </navLabel>
+      <content src="matte-formler.xhtml#Page_006" />
+    </pageTarget>
+    <pageTarget id="navPoint40" type="normal" value="8">
+      <navLabel>
+        <text>8</text>
+      </navLabel>
+      <content src="007_sevardheter.xhtml#Page_007" />
+    </pageTarget>
+  </pageList>
 </ncx>
