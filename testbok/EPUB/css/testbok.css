@@ -23,3 +23,7 @@ p.ex {
   color: #E00;
   font-family: "Lucida Sans Unicode", sans-serif;
 }
+
+nav[role="doc-toc"] ol li {
+    list-style-type:none;
+}
