@@ -29,12 +29,6 @@
         </navLabel>
         <content src="001_front.xhtml#rub-front-3" />
       </navPoint>
-      <navPoint id="navPoint4">
-        <navLabel>
-          <text>Instruktioner</text>
-        </navLabel>
-        <content src="001_front.xhtml#rub-front-4" />
-      </navPoint>
     </navPoint>
     <navPoint id="navPoint5">
       <navLabel>
