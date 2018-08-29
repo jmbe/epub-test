@@ -35,7 +35,7 @@
     <item id="content_005" href="005_historia.xhtml" media-type="application/xhtml+xml" />
     <item id="content_006" href="006_geografi_och_natur.xhtml" media-type="application/xhtml+xml" />
     <item id="content_007" href="007_sevardheter.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_008" href="matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
+    <item id="content_008" href="008_matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
     <item id="content_009" href="lankar.xhtml" media-type="application/xhtml+xml" />
     <item id="content_010" href="mixed.xhtml" media-type="application/xhtml+xml" />
     <item id="fotnoter_02" href="extern-fotnoter.xhtml" media-type="application/xhtml+xml" />

@@ -160,7 +160,7 @@
       <navLabel>
         <text>Matteformler</text>
       </navLabel>
-      <content src="matte-formler.xhtml" />
+      <content src="008_matte-formler.xhtml" />
     </navPoint>
     <navPoint id="navPoint27">
       <navLabel>
@@ -240,7 +240,7 @@
       <navLabel>
         <text>7</text>
       </navLabel>
-      <content src="matte-formler.xhtml#Page_006" />
+      <content src="008_matte-formler.xhtml#Page_006" />
     </pageTarget>
     <pageTarget id="navPoint40" type="normal" value="8">
       <navLabel>
