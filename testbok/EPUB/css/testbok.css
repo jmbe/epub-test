@@ -24,6 +24,7 @@ p.ex {
   font-family: "Lucida Sans Unicode", sans-serif;
 }
 
-nav[role="doc-toc"] ol li {
-    list-style-type:none;
+nav[role="doc-toc"] ol li,
+nav[role="doc-pagelist"] ol li {
+  list-style-type: none;
 }
