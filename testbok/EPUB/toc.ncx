@@ -156,30 +156,31 @@
         <content src="007_sevardheter.xhtml#rub_02_11" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint26">
+     <navPoint id="navPoint26">
       <navLabel>
-        <text>Matteformler</text>
+        <text>Klimat</text>
       </navLabel>
-      <content src="008_matte-formler.xhtml" />
-    </navPoint>
-    <navPoint id="navPoint27">
-      <navLabel>
-        <text>Länkar</text>
-      </navLabel>
-      <content src="lankar.xhtml" />
+      <content src="008_klimat.xhtml" />
       <navPoint id="navPoint28">
         <navLabel>
-          <text>Länk till annan sida</text>
+          <text>Norra Sverige</text>
         </navLabel>
-        <content src="lankar.xhtml#rub-lankar-2" />
+        <content src="008_klimat.xhtml#rub-lankar-2" />
       </navPoint>
       <navPoint id="navPoint29">
         <navLabel>
-          <text>Länk inom samma sida</text>
+          <text>Södra Sverige</text>
         </navLabel>
-        <content src="lankar.xhtml#rub-lankar-3" />
+        <content src="008_klimat.xhtml#rub-lankar-3" />
       </navPoint>
     </navPoint>
+	   <navPoint id="navPoint27">
+      <navLabel>
+        <text>Matteformler</text>
+      </navLabel>
+      <content src="009_matte-formler.xhtml" />
+    </navPoint>
+
     <navPoint id="navPoint30">
       <navLabel>
         <text>Blandade språk</text>
@@ -240,13 +241,13 @@
       <navLabel>
         <text>7</text>
       </navLabel>
-      <content src="008_matte-formler.xhtml#Page_006" />
+      <content src="007_sevardheter.xhtml#Page_006" />
     </pageTarget>
     <pageTarget id="navPoint40" type="normal" value="8">
       <navLabel>
         <text>8</text>
       </navLabel>
-      <content src="007_sevardheter.xhtml#Page_007" />
+      <content src="008_klimat.xhtml#Page_007" />
     </pageTarget>
   </pageList>
 </ncx>
