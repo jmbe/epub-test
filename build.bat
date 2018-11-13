@@ -1,3 +1,3 @@
 @echo off
 
-gradlew epub --continuous
+gradlew ncx epub --continuous
