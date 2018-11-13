@@ -35,10 +35,10 @@
     <item id="content_005" href="005_historia.xhtml" media-type="application/xhtml+xml" />
     <item id="content_006" href="006_geografi_och_natur.xhtml" media-type="application/xhtml+xml" />
     <item id="content_007" href="007_sevardheter.xhtml" media-type="application/xhtml+xml" />
-    <item id="content_008" href="008_klimat.xhtml"  media-type="application/xhtml+xml" />
+    <item id="content_008" href="008_klimat.xhtml" media-type="application/xhtml+xml" />
     <item id="content_009" href="009_matte-formler.xhtml" properties="mathml" media-type="application/xhtml+xml" />
-	
-	<item id="content_010" href="010_programkod.xhtml" media-type="application/xhtml+xml" />
+
+    <item id="content_010" href="010_programkod.xhtml" media-type="application/xhtml+xml" />
     <item id="content_011" href="mixed.xhtml" media-type="application/xhtml+xml" />
     <item id="fotnoter_02" href="extern-fotnoter.xhtml" media-type="application/xhtml+xml" />
     <item id="bildbeskrivningar_01" href="extern-bildbeskrivningar.xhtml" media-type="application/xhtml+xml" />
@@ -46,9 +46,9 @@
     <!-- bilder -->
     <item href="images/en-hast-skansen.jpg" media-type="image/jpeg" id="hasten01" />
     <item href="images/samisk-familj.jpg" media-type="image/jpeg" id="samiskfam01" />
-	<item href="images/vasamuseets-fasader.jpg" media-type="image/jpeg" id="vasamuseet01" />
-	<item href="images/turning-torso.jpg" media-type="image/jpeg" id="turningtorso01" />
-	<item href="images/kebnekaise.jpg" media-type="image/jpeg" id="kebnekaise01" />
+    <item href="images/vasamuseets-fasader.jpg" media-type="image/jpeg" id="vasamuseet01" />
+    <item href="images/turning-torso.jpg" media-type="image/jpeg" id="turningtorso01" />
+    <item href="images/kebnekaise.jpg" media-type="image/jpeg" id="kebnekaise01" />
     <item href="css/testbok.css" media-type="text/css" id="testbok.css" />
   </manifest>
   <spine toc="ncx">
@@ -63,7 +63,7 @@
     <itemref idref="content_008" />
     <itemref idref="content_009" />
     <itemref idref="content_010" />
-	<itemref idref="content_011" />
+    <itemref idref="content_011" />
     <itemref idref="fotnoter_02" linear="no" />
     <itemref idref="bildbeskrivningar_01" linear="no" />
   </spine>
