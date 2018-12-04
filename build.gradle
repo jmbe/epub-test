@@ -5,8 +5,8 @@ buildscript {
   }
 
   dependencies {
-    classpath "com.github.jmbe:epub-gradle-plugin:0.8"
-    // classpath "se.intem:epub-gradle-plugin:0.9-SNAPSHOT" // for local dev
+    classpath "com.github.jmbe:epub-gradle-plugin:0.9"
+    // classpath "se.intem:epub-gradle-plugin:0.10-SNAPSHOT" // for local dev
   }
 }
 
