@@ -1,6 +1,7 @@
 * text=auto
 
 # Configure line-endings
+/gradlew text eol=lf
 *.xhtml eol=lf
 *.opf eol=lf
 *.ncx eol=lf
@@ -17,3 +18,4 @@
 *.gif binary
 *.zip binary
 *.pdf binary
+*.jar binary
